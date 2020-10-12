@@ -1,0 +1,1 @@
+@charset "utf-8";#team{height:640px;width:100%}#team .con{width:1113px;height:640px;margin:0 auto;position:relative}#team .lt img,#team p{height:500px;position:absolute;top:0;display:none}#team .lt img{width:430px;left:0;margin-top:50px}#team p{width:537px;margin-top:60px;font-size:16px;color:#333;line-height:28px;right:0}#team .con .yc{display:none}#team .con .cx{display:block}

@@ -1,0 +1,1 @@
+for(var img=document.querySelectorAll("#sub .tu img"),i=0;i<img.length;i++)img[i].onmouseover=function(){this.className="animate__heartBeat"},img[i].onmouseout=function(){this.className=""};
