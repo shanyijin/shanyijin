@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="icon" href="../img/titl.png">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/back.css">
+</head>
+
+<body>
+    <div class="cart-list l_Layout">
+        <table class="tb_cart" id="cart_tb" width="100%">
+            <colgroup>
+                <col width="100">
+                <col width="">
+                <col width="140">
+                <col width="160">
+                <col width="140">
+                <col width="140">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <!--  选中的项的class加 icon_check_on -->
+                    <th><span class="select-all" id="j_select-all"><i
+                                class="icon icon_check check_all icon_check_on"></i>全选</span></th>
+                    <th class="t_Left">商品信息</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>合计</th>
+                    <th>操作</th>
+                </tr>
+                <tr>
+                    <td><i class="icon icon_check icon_check_on check_item" sub_pid="54170" act_id="" act_class=""></i></td>
+                    <td>
+                        <div class="cart-item">
+                            <a href="/script/buyer/product_dtl/product_id___4003/"><img
+                                    src="https://g.fp.ps.netease.com/gift/file/5d5f9ded5e6027132ec376dc02o1kjBG02"
+                                    width="120" height="120" alt="阴阳师纸百景-玉藻前"></a>
+                            <h3><a href="/script/buyer/product_dtl/product_id___4003/">阴阳师纸百景-玉藻前</a></h3>
+                            <p>玉藻前</p>
+                        </div>
+                    </td>
+                    <td class="pri">138 元</td>
+                    <td>
+                        <p class="number">
+                            <span id="icon_reduce">-</span>
+                            <input type="text" class="product_num input" sub_pid="54170" design_id="" value="1">
+                            <span id="icon_plus">+</i></span>
+                        </p>
+                        <h6 class="error" style="display:none;"></h6>
+                    </td>
+                    <td><span class="c_Highlight sum_price">138</span><span class="c_Highlight">元</span></td>
+                    <td>
+                        <a href="javascript:;" class="i_Btn_delete delete_product" sub_pid="54170" design_id="">×</a>
+                    </td>
+                </tr>
+            </tbody>
+
+
+            <table class="tb_cart sum shopPriceAll" width="100%" >
+                <tbody>
+                    <tr>
+                        <td>
+
+                            <div class="my-order-amount">
+                                <p>原价：¥<span id="original_money">138</span></p>
+                                <p>节省：¥<span id="discount_money">0</span></p>
+                                <p>应付：<strong class="c_Highlight">¥<span id="total_money">138</span></strong></p>
+                                <p><a href="javascript:history.go(-1);">继续购物</a><a href="javascript:;"
+                                        id="fill_bill" class="i_Btn_big i_Btn">去结算</a></p>
+                                <div class="blank24"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+
+    <div class="zfb">
+        <img src="../img/zfb.jpg" alt="">
+    </div>
+    <script src="../js/jquery-1.11.3.js"></script>
+    <script src="../js/gouw.js"></script>
+</body>
+
+</html>

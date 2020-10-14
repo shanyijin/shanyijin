@@ -1,0 +1,197 @@
+/* title */
+#title{
+    height: 54px;
+
+}
+#title .title_lt{
+    height: 54px;
+    width: 179px;
+    float: left;
+}
+#title .title_mid{
+    margin: 0 auto;
+}
+#title .title_rt{
+    float: right;
+}
+header{
+    width:100%;
+    height: 80px;
+    position:sticky;
+    top:0;
+    left: 0;
+    background:#000;
+    z-index: 2;
+}
+footer{
+    min-height: 900px;
+    overflow: hidden;
+    position: relative;
+    background:url(../img/foot.png) center no-repeat;
+    /* z-index:-1; */
+}
+footer .con{
+    width: 1474px;
+    min-height:900px;
+    position: relative;
+    margin: 0 auto;
+}
+/* 二维码 */
+footer .con .code{
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+  /* background:red; */
+  position: absolute;
+  /* position: relative; */
+  overflow: hidden;
+  top:271px;
+  right:200px;
+}
+footer .code img{
+    position: absolute;
+    top:-81px;
+    left:50%;
+    margin-left:-215px;
+}
+/* footer 的logo */
+footer .con .z{
+    width: 71px;
+    height: 203px;
+    overflow: hidden;
+    position: absolute;
+    top: 346px;
+    left:400px;
+    background-repeat: no-repeat;
+}
+footer .z img{
+    position: absolute;
+    top:-296px;
+    left:50%;
+    margin-left:-1059px;
+}
+footer .con .footers{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+}
+footer .footers .lcon{
+    width:200px;
+    height:25px;
+    margin: 0 auto;
+    color: #fff;
+    z-index:-1;
+}
+footer .lcon span{
+    display: inline-block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+footer .lcon ul{
+    float: left;
+    width:142px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+footer .lcon .iconfont{
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin-right:5px;
+}
+/* footer 的logo图标 */
+footer .footers .ft_part{
+    width: 1024px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 15px 0 10px;
+    font-size: 12px;
+    line-height: 20px;
+}
+footer .ft_part .ft_logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 48px;
+    min-width: 300px;
+}
+footer .ft_logo a{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+}
+footer .ft_logo a:nth-of-type(1)>img{
+    padding-right:0px;
+}
+footer .ft_logo img{
+   /* padding-right: 0; */
+    padding-right: 15px;
+    padding-top: 5px;
+    border: 0;
+    vertical-align: middle;
+}
+footer .ft_part .ft_nav{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    z-index: 1;
+    /* background: red; */
+}
+footer .ft_nav a{
+    color: #fff;
+    text-decoration: none;
+    margin-left:5px;
+    position: relative;
+}
+footer .ft_nav .hou::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width:5px;
+    height:1px;
+    background: #fff;
+    top:8px;
+    right:-7px;
+}
+footer .ft_nav em{
+    color:#fff;
+    margin-left:5px;
+}
+footer .ft_nav .ft_ship{
+    display: inline-block;
+    color: #fff;
+    background-color: #610000;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 3px;
+    top: 21px;
+}
+footer .ft_part:nth-of-type(2){
+    padding-top: 10px;
+    line-height: 24px;
+    color: #ccc;
+}
+footer .ft_part:nth-of-type(2) span{
+    display: inline-block;
+    vertical-align: top;
+}
+footer .ft_part:nth-of-type(2) a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+

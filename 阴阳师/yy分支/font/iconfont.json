@@ -1,0 +1,86 @@
+{
+  "id": "2103508",
+  "name": "yys",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "57361",
+      "name": "天猫-包邮卡",
+      "font_class": "tianmaobaoyouqia",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "451572",
+      "name": "售后",
+      "font_class": "shouhou",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "4933153",
+      "name": "正版",
+      "font_class": "zhengban",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "7662738",
+      "name": "售后",
+      "font_class": "shouhou1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "1306",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "967630",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "4437603",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "689297",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "1002153",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "9044861",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "10905628",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    }
+  ]
+}

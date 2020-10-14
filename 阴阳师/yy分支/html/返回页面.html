@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        div{
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            margin: 50px auto;
+        }
+        a{
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <a href="../html/ziye1.html">返回首页</a>
+    <div id="div"></div>
+
+    <script>
+        // 获得codes
+        let codes=location.search.split("=")[1];
+        // 解码codes
+        let str=decodeURIComponent(codes);
+        // let str="注册成功";
+        let count=3;
+        let timer=null;
+        timer=setInterval(()=>{
+            count--
+            div.innerHTML=str+`<br>页面在${count}s后返回 `
+            if(count==0){
+                window.location.href="../html/ziye1.html";
+            }
+        },1000)
+    </script>
+</body>
+</html>
